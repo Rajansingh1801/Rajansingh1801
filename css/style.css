@@ -1,0 +1,126 @@
+body{font-family: 'Roboto', sans-serif;}
+.top-content{align-items:self-end;}
+.top-content ul{list-style: none;}
+.top-content .coll .bx{font-size: 22px;}
+.top-content .search{border:2px solid black; border-radius:2px;}
+.top-content .box{outline: none; border:none; padding: 10px 15px;  width:500px; margin-top: 0% !important;} 
+.top-content .bx-search{color: black; font-size: 22px; padding: 10px 25px; }
+.scr{display: none;}
+.modal1{display: none;}
+@media(max-width:768px){
+.src{display: block !important;}
+.top-content .search{ display: none !important;} 
+}
+/* nav */
+#dropdownMenuButton1{background: rgb(234, 232, 232);}
+#dropdownMenuButton1 .bx{font-size: 1rem; font-weight: 600;}
+nav .nav-item{margin-left:50px; }
+nav .nav-item a{color: black; opacity: 0.8; font-weight: 600;}
+nav .nav-item a:hover{color: #FF4F04;}
+/* header */
+header{background-image: url("../images/img.png"); background-position: center; background-repeat: no-repeat; background-size: cover;}
+header .row { --bs-gutter-x: 0rem;}
+header h1{font-size: 54px; color: white; text-transform: uppercase;}
+header p{font-size: 17px; color: white;}
+header .btn{color: white; font-weight: 600; padding: 10px 20px;}
+header .btn1{background-color: #FF4F04;}
+header .btn1:hover{ color: white; transform: translateY(5px);}
+header .btn2{border: none; background-color:rgb(248, 242, 242 ,0.3); color: white !important;}
+header .btn2:hover{color: white; transform: translateY(5px);}
+header .bx{color: white;}
+header img{float: right; padding: 0px; width: 100%;}
+header .container{padding-left: 98px;}
+@media(max-width:1400px){
+    nav .nav-item{margin-left:30px; }
+    .top-content .box{ width: 400px; } 
+}
+@media(max-width:1200px){
+    .top-content .box{ width: 300px; } 
+    nav .nav-item{margin-left:5px; }
+}
+@media(max-width:992px){
+    .top-content .box{ width: 200px; } 
+    header h1{font-size: 30px; color: white; text-transform: uppercase;}
+}
+@media(max-width:776px){
+header .container{padding-left: 20px;}
+/* header img{height: 300px !important; width: 500px !important; float: none; } */
+}
+@media(max-width:576px){
+ header .container{padding-left: 5px;}
+header h1{font-size: 25px; padding-top: 80px;}
+}
+/* hero class  */
+.hero{text-transform: capitalize; background-color: aqua;}
+.hero{background: linear-gradient(rgb(234, 232, 232) 50%,white 50%);}
+.hero img:hover{ transform: scale(1.1); transition: 1s; box-shadow: 5px 5px 5px rgb(77, 75, 75);}
+.hero h4,h3{text-transform: uppercase;}
+.hero h4{color: black; opacity: 0.7; font-size: 16px;}
+.hero h3{color: black; font-weight: 700; font-weight: 28px;}
+.hero .btn{color: #FF4F04; background-color: #fbcfbc; border-radius: 25px; border: 2px solid #fbcfbc;}
+.hero .btn:hover{background-color: #f5f5f5; color: black; border: 2px solid #FF4F04; }
+.hero .btn3{padding: 10px 30px; border: 2px solid lightslategray; background-color: white; border-radius: 3px; color: black; opacity: 0.8; font-weight: 600;}
+@media(max-width:992px){
+    .hero{background: linear-gradient(rgb(234, 232, 232) 50%,#eae8e8 50%);}
+}
+/* shoes */
+.shoes{background-image: url("../images/shoes.png"); background-repeat: no-repeat; background-size: cover; color: white;}
+.shoes h1{font-size: 37px; font-weight: 700;}
+.shoes .btn{ color: white; border: 3px solid white; padding: 10px 40px; float: right;}
+
+@media(max-width:768px){
+    .shoes h1{font-size: 25px; font-weight: 700; padding-top: 10px;}
+    .shoes br{display: none;}
+    .shoes .row{align-items: center; justify-content: center; display: block;}
+   .shoes .btn{ color: white; border: 3px solid white; padding: 10px 40px; float: none;}
+}
+@media(max-width:576px){
+    .shoes h1{font-size: 20px; font-weight: 700; padding-top: 10px;}
+    .shoes .row{align-items: center; justify-content: center; display: block;}
+   .shoes .btn{ color: white; border: 3px solid white; padding: 7px 10px; float: none;}
+}
+/* .collection{background-color: aqua;} */
+.collection2, .collection1{background-color: #f5f5f6; border-radius: 10px; padding: 25px;}
+.collection .collection1 .button .btn1{color: white; background-color: black; font-weight: 600; border-radius: 25px;}
+.collection .collection1 .button .btn2{color:#FF4F04; background-color: white; font-weight: 600;border-radius: 25px;}
+.collection .collection1 .shoes-model{padding: 30px 40px; margin-top: -74px; opacity: 1;}
+.collection .collection1 .shoes-model h3{font-size: 25px; color: black;}
+.collection .collection1 .shoes-model span{font-size:14px; color: black; opacity: 0.4;}
+.collection .collection2{ border-radius: 10px;}
+.collection .collection2 .text{padding-bottom: 30px; display: flex;}
+.collection .collection2 .text h3{font-size: 1rem; margin: auto;}
+.collection .collection2 .text .btn{color: #FF4F04; border: none; border-radius: 10px; margin: auto; background-color: white;} 
+.btn3{padding: 10px 30px; border: 2px solid lightslategray; background-color: white; border-radius: 3px; color: black; opacity: 0.8; font-weight: 600;}
+
+@media(max-width:1400px){
+.collection .collection1 .shoes-model{padding: 30px 40px; margin-top: -31px; opacity: 1;}
+}
+@media(max-width:1200px){
+.collection .collection2 .text{padding-bottom: 15px; display: flex;}
+}
+@media(max-width:992px){
+    .collection1{margin-top: 15px;}
+.collection .collection1 .shoes-model{padding: 30px 40px; margin-top: -74px; opacity: 1;}
+}
+@media(max-width:768px){
+    .collection .collection2 img{align-items: center;}
+}
+/* product  */
+.product .p-text h5{font-size: 14px; font-weight: 500;}
+.product .p-text h3{font-size: 30px; font-weight: 700;}
+.product .text{background-color: white; padding-top: 20px; padding-bottom: 10px;}
+.product .text h3{font-size: 15px; margin: auto; }
+.product .item{background-color: #f5f5f5;}
+.product .item:hover img { transform: scale(1.1); transition: 1s;}
+.product .text .btn{color: #FF4F04; background-color:#f7dcd0; border-radius: 10px;}
+.product .text .btn:hover{color:black; background-color:#f7dcd0; border-radius: 10px; border: 1px solid #FF4F04;}
+/* footer  */
+footer ul{list-style: none; padding-left: 0px;}
+.modal-body form input{width: 70%; outline: none; border:none; border-bottom: 2px solid black;}
+.modal-body form .btn{color: #FF4F04; background-color: #f5f5f6; border-radius: 10px; padding: 7px 15px;}
+@media(max-width:768px){
+    footer p br{display: none;}
+}
+@media(max-width:576px){
+    
+}
