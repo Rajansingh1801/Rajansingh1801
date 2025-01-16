@@ -4,7 +4,7 @@
 
 ## Stats
 
-![Rajan singh's GitHub Stats](https://github-readme-stats.vercel.app/api?rajansingh1801=rajansingh1801&theme=radical)
+
 
 ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs?username=rajansingh1801&layout=compact&theme=radical)
 
